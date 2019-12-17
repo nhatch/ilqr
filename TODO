@@ -1,0 +1,5 @@
+Things to fix:
+
+1. This runs very slowly (takes about 300 iterations for cartpole, 1sec per iteration). Partly this is because the initial guesses do nothing for most of the trajectory and flip up the pole at the very end; then gradually the time at which the flip happens gets moved earlier and earlier. Why does it do it in this inefficient way?
+
+2. The code for inverted pendulum probably doesn't work anymore now that cartpole is working.
